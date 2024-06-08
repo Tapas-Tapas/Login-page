@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 135, 252);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid purple;
+    box-shadow: 5px 5px 10px purple;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    color: blueviolet;
+    text-align: center;
+    transition: all 1s;
+}
+
+input {
+    padding: 5px;
+    font-size: large;
+    font-family: cursive;
+    box-shadow: inset -1.5px -1.5px 25px rgba(252, 215, 252, 0.5), inset -1.5px -1.5px 20px rgb(252, 214, 252, 0.5);
+    margin: 15px;
+    align-content: center;
+}
+
+.btns {
+    font-size: x-large;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    align-items: center;
+    font-family: cursive;
+    margin-top: 10px;
+    position: relative;
+    left: 35px;
+    background-color: rgb(48, 96, 240);
+    
+    .link{
+        text-decoration-line: none;
+        color: black;
+    }
+
+}
+
+.btns:hover {
+    background-color: blue;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px blueviolet;
+}
+
+.btns:active {
+    scale: 0.95;
+}
+
+.fg {
+    margin-left: 100px;
+    text-decoration-line: none;
+}
+
+.su {
+    text-decoration-line: none;
+    color: blueviolet;
+    font-size: large;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cup{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    color: blueviolet;
+    text-align: center;
+    transition: all 1s;
+}
